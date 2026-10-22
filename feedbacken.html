@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Fotos/favicon.png">
+    <link rel="stylesheet" href="Styles/styles.css">
+    <title>Feedback | Portfolio</title>
+</head>
+<body>
+    <header id="cabecera">
+        <img id="logo" src="Fotos/mainlogo.png" alt="Logo página">
+        <nav>
+            <ul id="menu">
+                <li><a href="indexen.html">HOME</a></li>
+                <li class="separador"></li>
+                <li><a href="aboutme.html">ABOUT ME</a></li>
+                <li class="separador"></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li class="separador"></li>
+                <li><a href="feedbacken.html">FEEDBACK</a></li>
+                <li class="separador"></li>
+                <li><a href="cven.html">CV</a></li>
+            </ul>
+        </nav>
+        <button id="hamburguesa">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd"/>
+            </svg>
+        </button>
+    </header>
+
+    <div id="menu-movil">
+        <ul>
+            <li><a href="indexen.html">HOME</a></li>
+            <li><a href="aboutme.html">ABOUT ME</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="feedbacken.html">FEEDBACK</a></li>
+            <li><a href="cven.html">CV</a></li>
+        </ul>
+    </div>
+
+    <main id="mainfeed">
+        <h2>
+            Website feedback
+        </h2>
+        <form id="formulario">
+        <fieldset>
+            <legend></legend>
+            <label for="web">How did you find this website?</label><br>
+            <input type="checkbox" id="opc1" value="class">
+                <label for="clase">Class</label><br>
+            <input type="checkbox" id="opc2" value="linkdin">
+                <label for="clase">LinkdIn</label><br>
+            <input type="checkbox" id="opc3" value="others">
+                <label for="clase">Others</label><br>
+
+            <label for="nom">name:</label><br>
+            <input id="nom" type="text" required><br>
+            <label for="ap1">1st Surname:</label><br>
+            <input id="ap1" type="text" required><br>
+            <label for="ap2">2nd Surname:</label><br>
+            <input id="ap2" type="text" required><br>   
+
+            <p class="nota">Please leave your opinion and rating</p>
+            <textarea name="opinion" id="opinion" rows="5" cols="22"></textarea>
+
+            <div class="rating">
+                <input id="star5" name="star" type="radio" value="5" class="hide">
+                <label for="star5" >★</label>
+                <input id="star4" name="star" type="radio" value="4" class="hide">
+                <label for="star4" >★</label>
+                <input id="star3" name="star" type="radio" value="3" class="hide">
+                <label for="star3" >★</label>
+                <input id="star2" name="star" type="radio" value="2" class="hide">
+                <label for="star2" >★</label>
+                <input id="star1" name="star" type="radio" value="1" class="hide">
+                <label for="star1" >★</label>
+                <div class="clear"></div>
+            </div>
+
+            <div id="btns">
+            <input type="submit" value="Send">
+            <input type="reset" value="Clear">
+            </div>
+        </fieldset>
+        </form>
+    </main>
+
+    <footer id="pie">
+        <h3>This is just a preview of the final portfolio</h3>
+        <h4>Thanks for visiting!</h4>
+        <p>If you wish to leave any feedback, you can contact me on my social media!</p>
+        <a href="mailto:sergioherreragarcia1@gmail.com">
+            <img src="Fotos/gmail-logo.png" alt="Gmail">
+        </a>
+    </footer>
+
+    <a href="feedback.html" id="btn-idioma">
+        <img src="https://cdn-icons-png.flaticon.com/512/3797/3797961.png" alt="Cambiar idioma">
+    </a>
+    <script src="JS/menu.js"></script>
+</body>
+</html>
